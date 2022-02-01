@@ -1,4 +1,2 @@
-# Web Templates
-## A hobby project
-
-You heard it, now get off
+# Blogs
+That's all you need to know.
