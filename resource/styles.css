@@ -43,6 +43,7 @@ a:visited {
 }
 
 main#main {
+ display: flex;
  justify-content: center;
- margin: 10%;
+ margin-inline: 10%;
 }
