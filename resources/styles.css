@@ -41,3 +41,8 @@ a {
 a:visited {
   color: rgb(113, 43, 226);
 }
+
+main#main {
+ justify-content: center;
+ margin: 10%;
+}
