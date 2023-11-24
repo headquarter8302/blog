@@ -65,3 +65,7 @@ main#main {
   justify-content: center;
   margin-inline: 10%;
 }
+
+footer {
+  margin-inline: 10%;
+}
