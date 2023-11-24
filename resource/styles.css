@@ -33,17 +33,35 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+h1#hero {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: .5%;
+  border-radius: 8px;
+}
+
 a {
-  color: rgb(0, 102, 255);
+  color: rgb(60, 138, 255);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(113, 43, 226);
+  color: rgb(139, 67, 255);
 }
 
 main#main {
- display: flex;
- justify-content: center;
- margin-inline: 10%;
+  display: flex;
+  justify-content: center;
+  margin-inline: 10%;
 }
