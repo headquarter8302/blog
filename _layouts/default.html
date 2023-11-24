@@ -20,6 +20,14 @@
         <article>
             <h1 id="name">Blogs, thoughts and ramblings</h1>
             <div id="description">Title says it all.</div>
+            <section id="recentposts">
+                <h2>Recent posts</h2>
+                <ul>
+                    {% for post in site.posts %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
         </article>
     </main>
 </body>
