@@ -36,6 +36,8 @@ body {
 header {
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 header ul {
@@ -68,4 +70,5 @@ main#main {
 
 footer {
   margin-inline: 10%;
+  border-block-start: 1px solid gray;
 }
