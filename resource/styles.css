@@ -68,6 +68,14 @@ main#main {
   margin-inline: 10%;
 }
 
+main h2 {
+  font-size: 500%;
+}
+
+main article {
+  width: 75%;
+}
+
 footer {
   margin-inline: 10%;
   border-block-start: 1px solid gray;
