@@ -30,6 +30,7 @@ body {
   background-color: #0d0d0d;
   color: whitesmoke;
   font-family: "Inter", sans-serif;
+  font-display: swap;
   display: flex;
   flex-direction: column;
 }
