@@ -68,15 +68,15 @@ a:visited {
   color: rgb(139, 67, 255);
 }
 
-main#main {
+main {
   display: flex;
   justify-content: center;
   margin-inline: 10%;
   margin-block-start: 5%;
 }
 
-main h2 {
-  font-size: 500%;
+main.blog h2 {
+  font-size: clamp(2.5rem, 5vw, 80px);
 }
 
 main article {
