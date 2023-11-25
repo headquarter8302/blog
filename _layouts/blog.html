@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <p class="tags">{{ page.tags }}</p>
     {% include header.html %}
     <main class="blog">
         <article>
+            <p class="tags">Tags: {{ page.tags }}</p>
             <h2 id="title">{{ page.title }}</h2>
             <div id="description">{{ page.description }}</div>
             {{ content }}
