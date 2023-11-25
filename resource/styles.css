@@ -129,8 +129,8 @@ footer {
     box-shadow: none !important;
     color: black !important;
     border-color: black !important;
-    max-width: none;
-    margin-block: 0;
+    max-width: none !important;
+    margin-block: 0 !important;
   }
 
   nav,
