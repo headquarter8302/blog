@@ -97,7 +97,7 @@ main.blog p.tags {
 }
 
 main article {
-  width: 75%;
+  max-width: 75%;
 }
 
 main.blog article p {
@@ -127,6 +127,8 @@ footer {
     box-shadow: none !important;
     color: black !important;
     border-color: black !important;
+    max-width: none;
+    margin-block: 0;
   }
 
   nav,
