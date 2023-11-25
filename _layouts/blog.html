@@ -13,6 +13,14 @@
     <title>headquarter8302/blog</title>
     <link rel="stylesheet" href="/blog/resource/styles.css">
     <script src="/blog/resource/script.js" defer></script>
+    <!-- OGP tags -->
+    <meta property="og:title" content="{{ post.title }}">
+    <meta property="og:description" content="{{ post.description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ post.url }}">
+    <meta property="og:site_name" content="headquarter8302.github.io/blog">
+    <meta property="article:author" content="Markus Mafz">
+    <meta property="article:published_time" content="{{ post.date | date: '%Y-%m-%dT%H:%M:%S' }}">
 </head>
 
 <body>

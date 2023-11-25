@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "First real blog post here"
+description: "Short description here"
 date: 2023-11-25
 tags: test, hello-world
 ---
