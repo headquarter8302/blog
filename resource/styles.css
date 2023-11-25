@@ -30,6 +30,8 @@ body {
   background-color: #0d0d0d;
   color: whitesmoke;
   font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -105,4 +107,6 @@ main article {
 footer {
   margin-inline: 10%;
   border-block-start: 1px solid gray;
+  margin-block: auto 0;
+  font-size: 75%;
 }
