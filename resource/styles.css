@@ -87,6 +87,7 @@ main {
 
 main.blog h2#title {
   font-size: clamp(2.5rem, 5vw, 80px);
+  font-weight: 900;
   margin-block: 2.5%;
   border-inline-start: 10px solid;
   padding-inline-start: 0.25em;
@@ -107,6 +108,7 @@ main.blog article p {
 main.blog #description {
   color: whitesmoke;
   font-weight: 200;
+  margin-block: 1em;
 }
 
 .post-tags {
