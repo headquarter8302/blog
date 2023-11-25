@@ -90,6 +90,10 @@ main article {
   width: 75%;
 }
 
+.post-tags {
+  color: gray;
+}
+
 footer {
   margin-inline: 10%;
   border-block-start: 1px solid gray;
