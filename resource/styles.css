@@ -112,6 +112,13 @@ main.blog #description {
   color: gray;
 }
 
+pre {
+  background: #232323;
+  overflow-x: auto;
+  padding-inline: 1.5em;
+  border-radius: 8px;
+}
+
 footer {
   margin-inline: 10%;
   border-block-start: 1px solid gray;
