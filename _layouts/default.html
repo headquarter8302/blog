@@ -24,7 +24,7 @@
                 <h2>Recent posts</h2>
                 <ul>
                     {% for post in site.posts %}
-                    <li class="post-link"><a href="/blog/{{ post.url }}">{{ post.title }}</a> (<span
+                    <li class="post-link"><a href="/blog{{ post.url }}">{{ post.title }}</a> (<span
                             class="post-tags">{{ post.tags }}</span>) - <span
                             class="post-date">{{ post.date | date: "%B %d, %Y" }}</span></li>
                     {% endfor %}
