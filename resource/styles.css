@@ -119,3 +119,18 @@ footer {
   margin-block: auto 0;
   font-size: 75%;
 }
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    color: black !important;
+    border-color: black !important;
+  }
+
+  nav,
+  footer:first-child {
+    display: none;
+  }
+}
