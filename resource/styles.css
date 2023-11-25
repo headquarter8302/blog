@@ -130,7 +130,7 @@ footer {
     color: black !important;
     border-color: black !important;
     max-width: none !important;
-    margin-block: 0 !important;
+    margin-inline: 0 !important;
   }
 
   nav,
