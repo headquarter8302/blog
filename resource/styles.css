@@ -100,6 +100,11 @@ main article {
   width: 75%;
 }
 
+main.blog article p {
+  line-height: 2;
+  margin-block: 2.5%;
+}
+
 .post-tags {
   color: gray;
 }
