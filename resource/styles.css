@@ -59,6 +59,12 @@ h1#hero {
   border-radius: 8px;
 }
 
+section#recentposts ul li.post-link {
+  background-color: #1c1c1c;
+  padding: 1%;
+  border-radius: 8px;
+}
+
 a {
   color: rgb(60, 138, 255);
   text-decoration: none;
