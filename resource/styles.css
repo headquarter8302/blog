@@ -79,7 +79,7 @@ main {
   display: flex;
   justify-content: center;
   margin-inline: 7.5%;
-  margin-block-start: 5%;
+  margin-block: 5%;
 }
 
 main.blog h2#title {
