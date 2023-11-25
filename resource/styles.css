@@ -131,6 +131,7 @@ footer {
 
   nav,
   footer:first-child {
-    display: none;
+    display: none !important;
+    visibility: hidden !important;
   }
 }
