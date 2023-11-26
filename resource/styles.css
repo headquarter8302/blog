@@ -18,6 +18,8 @@
 
 ::-webkit-scrollbar {
   background-color: #0d0d0d;
+  width: 1vw;
+  height: 1vw;
 }
 
 ::-webkit-scrollbar-thumb {
