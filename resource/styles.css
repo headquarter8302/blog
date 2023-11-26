@@ -11,6 +11,18 @@
   font-display: swap;
 }
 
+:root {
+  scrollbar-color: #0d0d0d white;
+}
+
+::-webkit-scrollbar {
+  background-color: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
 html,
 body {
   margin: 0;
