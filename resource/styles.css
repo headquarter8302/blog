@@ -67,6 +67,12 @@ section#recentposts ul li.post-link {
   margin-block: 2.5%;
 }
 
+p {
+ overflow-x: auto;
+ text-wrap: balance;
+ word-wrap: break-word;
+}
+
 a {
   color: rgb(60, 138, 255);
   text-decoration: none;
