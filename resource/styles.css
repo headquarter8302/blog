@@ -75,11 +75,10 @@ h1#hero {
 }
 
 section#recentposts ul li.post-link {
-  background: linear-gradient(to right, transparent, #1c1c1c);
   padding: 1%;
-  border-radius: 8px;
-  list-style-type: '>';
+  list-style-type: none;
   margin-block: 2.5%;
+  border-inline-start: 5px solid
 }
 
 p {
