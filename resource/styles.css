@@ -84,7 +84,6 @@ section#recentposts ul li.post-link {
 
 p {
  overflow-x: auto;
- text-wrap: balance;
  word-wrap: break-word;
 }
 
@@ -117,7 +116,7 @@ main.blog p.tags {
 }
 
 main article {
-  max-width: 75%;
+  max-width: 85%;
 }
 
 main.blog article p {
