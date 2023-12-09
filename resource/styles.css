@@ -74,6 +74,12 @@ h1#hero {
   border-radius: 8px;
 }
 
+section#recentposts ul {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
 section#recentposts ul li.post-link {
   padding: 1%;
   list-style-type: none;
