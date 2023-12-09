@@ -6,6 +6,11 @@ date: 2023-12-08
 tags: story
 ---
 
+## Update
+
+I've located a copy of the file and fixed the whole crashing issue, it's (shamefully) tracked in [`7020`](https://github.com/LMMS/lmms/issues/7020).
+
+
 You all must be familiar with the old anecdote of *"I deleted everything in prod, xoxo the intern"*.
 
 Well, today, I became the intern.
