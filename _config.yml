@@ -1,2 +1,7 @@
 title: Mark's blog
 description: Shrimple as that
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
