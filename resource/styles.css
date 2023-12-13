@@ -84,7 +84,6 @@ section#recentposts ul {
 section#recentposts ul li.post-link {
   padding: 1%;
   list-style-type: none;
-  margin-block: 2.5%;
   border-inline-start: 5px solid;
   background-color: rgba(127,127,127,.1);
   width: 25%;
