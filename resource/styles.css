@@ -76,15 +76,18 @@ h1#hero {
 
 section#recentposts ul {
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 section#recentposts ul li.post-link {
   padding: 1%;
   list-style-type: none;
   margin-block: 2.5%;
-  border-inline-start: 5px solid
+  border-inline-start: 5px solid;
+  background-color: rgba(127,127,127,.1);
+  width: 25%;
 }
 
 p {
