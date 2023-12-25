@@ -141,7 +141,7 @@ main.blog article ol li {
   margin: 1em;
 }
 
-main.blog article code {
+main.blog article code:not(+ pre) {
   background-color: #232323;
   padding: .25em;
   border-radius: 8px;
