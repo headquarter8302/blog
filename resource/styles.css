@@ -126,7 +126,8 @@ main article {
   max-width: 85%;
 }
 
-main.blog article p {
+main.blog article p,
+main.blog article ol {
   line-height: 2;
 }
 
@@ -136,6 +137,10 @@ main.blog #description {
   margin-block: 1em;
 }
 
+main.blog article ol li {
+  margin: 1em;
+}
+
 .post-tags {
   color: gray;
 }
@@ -143,7 +148,7 @@ main.blog #description {
 pre {
   background-color: #232323;
   overflow-x: auto;
-  padding-inline: 1.5em;
+  padding: 1em;
   border-radius: 8px;
 }
 
