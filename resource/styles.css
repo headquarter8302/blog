@@ -141,6 +141,13 @@ main.blog article ol li {
   margin: 1em;
 }
 
+main.blog article code {
+  background-color: #232323;
+  padding: .25em;
+  border-radius: 8px;
+  border: .01vw solid gray;
+}
+
 .post-tags {
   color: gray;
 }
@@ -178,7 +185,7 @@ footer {
     bacgkround-color: black;
   }
 
-  pre {
+  pre, code {
     background-color: #dcdcdc;
   }
 
