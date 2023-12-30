@@ -186,7 +186,7 @@ footer {
     bacgkround-color: black;
   }
 
-  pre, code, code:not(pre > code) {
+  main.blog article pre, main.blog article code, main.blog article code:not(pre > code) {
     background-color: #dcdcdc;
   }
 
