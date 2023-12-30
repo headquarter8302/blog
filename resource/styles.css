@@ -41,8 +41,7 @@ body {
 body {
   background-color: #0d0d0d;
   color: whitesmoke;
-  font-family: "Inter", sans-serif;
-  font-display: swap;
+  font-family: "Inter", sans-serif; 
   display: flex;
   flex-direction: column;
 }
@@ -146,6 +145,7 @@ main.blog article code:not(pre > code) {
   padding: .25em;
   border-radius: 8px;
   border: .01vw solid gray;
+  word-break: break-word;
 }
 
 .post-tags {
@@ -185,7 +185,7 @@ footer {
     bacgkround-color: black;
   }
 
-  pre, code {
+  pre, code, code:not(pre > code) {
     background-color: #dcdcdc;
   }
 
