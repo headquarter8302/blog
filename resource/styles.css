@@ -134,6 +134,7 @@ main.blog #description {
   color: whitesmoke;
   font-weight: 200;
   margin-block: 1em;
+  margin-inline-start: 2vw;
 }
 
 main.blog article ol li {
