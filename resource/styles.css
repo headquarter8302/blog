@@ -189,10 +189,13 @@ footer {
 
   main.blog article pre, main.blog article code, main.blog article code:not(pre > code) {
     background-color: #dcdcdc;
+  }
+
+ main.blog article pre {
     box-shadow:
       inset 5px 5px 5px #e1e1e1,
       inset -5px -5px 5px #d7d7d7;
-  }
+ }
 
   main.blog #description {
     color: #0a0a0a;
