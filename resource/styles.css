@@ -49,10 +49,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  position: sticky;
-  top: 0;
   background-color: inherit;
-  box-shadow: 0 0 30px #0d0d0d;
 }
 
 header ul {
@@ -105,8 +102,6 @@ a:visited {
 main {
   display: flex;
   justify-content: center;
-  margin-inline: 7.5%;
-  margin-block: 5%;
 }
 
 main.blog h2#title {
@@ -162,9 +157,9 @@ pre {
 }
 
 footer {
-  margin-inline: 10%;
   border-block-start: 1px solid gray;
-  margin-block: auto 0;
+  margin-inline: auto;
+  width: 85%;
   font-size: 75%;
 }
 
