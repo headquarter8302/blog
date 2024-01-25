@@ -26,7 +26,7 @@ After finding the policy that you want to override, and know what they really do
 
 Again, this guide only covers _local override of policies, and only if your policy precedence has `Platform machine` as the highest_. Any other than that, and it's a no-go.
 
-The easiest way to override Chrome policies is by modifying the registry, there's another way using the group policy editor, but this way works in all Windows editions regarding if they have group policy enabled or not.
+The easiest way to override Chrome policies is by modifying the registry, there's another way using the group policy editor, but this way works in all Windows editions regardless if they have group policy enabled or not.
 
 1. _Skip this step if you already have `HKLM\SOFTWARE\Policies\Google\Chrome`_. We start by modifying our `HKLM\SOFTWARE\Policies` key by adding a new `Google` subkey, then another `Chrome` subkey. The path should look like this: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome`
 2. Inside the `Chrome` key, add a key value that has the same name of the policy that you want to override, for example: `HomepageLocation`. Set the key's type to the type that is noted within the policy's documentation page, in this case it's String (REG_SZ).
