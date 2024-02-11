@@ -8,7 +8,7 @@ tags: guide
 
 In this guide, I'll tell you how to override Chrome's policies that has been set by your enterprise admin or by a cloud policy in Windows. I'll also show you how to make a registry key file that merges (and removes) said changes from the registry. Oh yeah, this method also works if you want to set a previously undefined policy on your Chrome instance, even if it's not been enrolled into an organization yet.
 
-Before we start, I need to state that this will only work _if your policy precedence has `Platform machine` as the topmost source before any other policy source_. Like this: `Platform machine > Cloud machine > Platform user > Cloud user`, your computer is the `Platform machine`. Also, any damages or unwanted attention that you get from modifying the policies are entirely your on your own responsibility. One last thing, this _will affect every Chrome instance present on your computer_, even in different user accounts in Windows.
+Before we start, I need to state that this will only work _if your policy precedence has `Platform machine` as the topmost source before any other policy source_. Like this: `Platform machine > Cloud machine > Platform user > Cloud user`, your computer is the `Platform machine`. Also, any damages or unwanted attention that you get from modifying the policies are entirely your own responsibility. One last thing, this _will affect every Chrome instance present on your computer_, even in different user accounts in Windows.
 
 ## Step 1: Identifying policies in effect
 
