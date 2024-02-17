@@ -99,6 +99,10 @@ a:visited {
   color: rgb(139, 67, 255);
 }
 
+ol, ul {
+  padding-inline: 1em;
+}
+
 main {
   display: flex;
   justify-content: center;
