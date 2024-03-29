@@ -3,7 +3,7 @@ layout: blog
 title: "Clone your data, always!"
 description: "On the note of using alpha software in a production environment (or in this case, personal environment)"
 date: 2023-12-08
-tags: story
+tags: story, blog
 ---
 
 ## Update
